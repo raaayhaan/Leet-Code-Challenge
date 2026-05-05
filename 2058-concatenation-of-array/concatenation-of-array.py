@@ -1,6 +1,7 @@
 from typing import List
 class Solution:
-    #Rehan Baig (gitHub:@raaay_haan)
+    #Rehan Baig 
+    #gitHub:@raaay_haan
     def getConcatenation(self, nums: List[int]) -> List[int]:
         n = len(nums)
         ans = [0] * (2*n)
