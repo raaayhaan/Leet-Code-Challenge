@@ -1,5 +1,6 @@
 from typing import List
 class Solution:
+    #Rehan I Baig (gitHub: @raaayhaan)
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs: return ""
         prefix = ""
