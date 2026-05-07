@@ -1,6 +1,6 @@
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
-        # freq = [0] *(len (nums) + 1)
+        #Rehan I Baig, gitHub:@raaayhaan
         for n in nums :
             index = abs(n) - 1
             if nums[index] > 0 :
@@ -9,7 +9,7 @@ class Solution:
         for i in range (len(nums)):
             if (nums[i] > 0):
                 missing.append(i+1)
-                
+
         return missing
 
         
