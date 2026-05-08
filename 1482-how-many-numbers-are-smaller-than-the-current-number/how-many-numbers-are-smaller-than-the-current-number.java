@@ -1,4 +1,5 @@
 class Solution {
+    //Rehan I Baig, gitHub:@raaayhaan
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] freq = new int[nums.length];
         for(int i = 0; i < nums.length; i++){
